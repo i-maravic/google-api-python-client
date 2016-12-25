@@ -81,6 +81,7 @@ except ImportError:
   from oauth2client._helpers import _add_query_parameter
   from oauth2client._helpers import positional
 
+
 # The client library requires a version of httplib2 that supports RETRIES.
 httplib2.RETRIES = 1
 
